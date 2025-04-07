@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: expense-income-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7441749328:AAFdaRHsu4E9X5BAcaMgTYVANZzYTuKLHkE
+      - key: MONGO_URL
+        value: mongodb+srv://atlas-sample-dataset-load-67f41e2ddff00477e080a95c:Adgjm1227@cluster0.ieynthv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
